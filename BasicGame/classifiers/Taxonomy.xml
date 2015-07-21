@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE taxonomy_file [
+   <!ELEMENT taxonomy_file (comments, parent_class+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT parent_class (class_name, sub_class*)>
+   <!ELEMENT class_name (#PCDATA)>
+   <!ELEMENT sub_class (class_name, sub_class*)>
+]>
+
+<taxonomy_file>
+
+   <comments></comments>
+
+   <parent_class>
+         <class_name>cadeira</class_name>
+   </parent_class>
+
+   <parent_class>
+         <class_name>mesa</class_name>
+   </parent_class>
+
+   <parent_class>
+         <class_name>parede</class_name>
+   </parent_class>
+
+</taxonomy_file>
